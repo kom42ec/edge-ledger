@@ -79,4 +79,13 @@ img {
   align-items: center;
   text-align: center;
   height: 100%; /* Must declare height in order to center content on a page */
+  padding: 0 20px;
+}
+.hero .content h1 {
+  font-size: 55px;
+}
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
 }
