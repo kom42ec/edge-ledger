@@ -72,3 +72,11 @@ img {
   position: relative;
   color: #fff;
 }
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%; /* Must declare height in order to center content on a page */
+}
