@@ -1,3 +1,5 @@
+/* General styling */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,10 +27,11 @@ p {
   margin: 10px 0;
 }
 img {
-  width: 100%; /* 100% of the container element */
+  width: 100%;
 }
 
 /* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
