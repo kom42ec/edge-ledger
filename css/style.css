@@ -168,6 +168,37 @@ img {
   margin-top: 20px;
 }
 
+/* Post */
+.post {
+  padding: 50px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pot .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -224,6 +255,17 @@ img {
   .flex-columns .column-2 {
     padding: 100px 50px;
   }
+  .post {
+    padding: 50px 30px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .post img {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+  }
 }
 
 @media (max-width: 1082px) and (min-width: 776px) {
@@ -231,5 +273,10 @@ img {
     flex: 50%;
     max-width: 50%;
     padding: 8px 4px;
+  }
+  .post {
+    padding: 50px 30px;
+    width: 80%;
+    margin: 0 auto;
   }
 }
