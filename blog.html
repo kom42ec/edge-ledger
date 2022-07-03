@@ -146,5 +146,18 @@
       </div>
       <p>Copyright &copy; 2022 - EdgeLedger</p>
     </footer>
+
+    <!-- JAVASCRIPT NAVBAR SCROLL -->
+    <script>
+      const navbar = document.getElementById("navbar");
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
   </body>
 </html>
