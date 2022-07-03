@@ -104,6 +104,10 @@ img {
   z-index: 10; /* Make every element in .hero on top of the overlay */
 }
 
+.hero.blog {
+  background: url("../images/home/blog.jpg") no-repeat center center/cover;
+  height: 30vh;
+}
 /* Icons */
 .icons {
   padding: 30px;
